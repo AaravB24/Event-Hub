@@ -1,0 +1,76 @@
+# ===============================
+# Root .gitignore for EventHub
+# ===============================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Secrets & Environment variables
+# Always keep secrets and credentials out of version control
+.env
+.env.*
+!.env.example
+*.local
+
+# ===============================
+# Frontend (Node / React / Vite)
+# ===============================
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+frontend/.oxlint-cache/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Backend (Python / FastAPI)
+# ===============================
+backend/.venv/
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.egg
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+
+# Database local storage & logs
+*.sqlite
+*.sqlite3
+*.log
