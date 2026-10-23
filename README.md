@@ -158,3 +158,4 @@ Before starting, ensure you have the following installed on your machine:
 - [ ] User authentication & authorization (JWT)
 - [ ] Event discovery, creation, and management
 - [ ] Ticket booking and reservation flow
+# Event-Hub
